@@ -1,0 +1,36 @@
+.footer {
+  height: 150px;
+  background-color: black;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-evenly;*/
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.footer p {
+  color: grey;
+  margin: 0;
+}
+
+
+.footer a {
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  color: blue;
+  font-size: 30px;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+.footer li {
+  display: inline;
+  padding: 10px;
+}

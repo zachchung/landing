@@ -1,0 +1,20 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  background-position: center;
+  display: flex;
+  /*justify-content: space-evenly;*/
+  align-items: center;
+  /*text-align: center;*/
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner h3 {
+  color: grey;
+  /*font-weight: lighter;*/
+}
