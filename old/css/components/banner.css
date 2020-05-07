@@ -1,13 +1,13 @@
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*text-align: center;*/
   background-image: url(../../images/background.png);
   background-size: cover;
-  background-position: center;
   height: 50vh;
   width: 100vw;
+  background-position: center;
+  display: flex;
+  /*justify-content: space-evenly;*/
+  align-items: center;
+  /*text-align: center;*/
 }
 
 .banner h1 {
@@ -16,4 +16,5 @@
 
 .banner h3 {
   color: grey;
+  /*font-weight: lighter;*/
 }

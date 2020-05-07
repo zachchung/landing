@@ -1,25 +1,24 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Use text-align: center instead of flexbox */
 .card {
   /*display: flex;*/
-  /*justify-content: space-between;*/
+  /*justify-content: center;*/
   /*align-items: center;*/
-  text-align: center;
+  width: 225px;
+  /*height: 200px;*/
   background-color: white;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 1px solid #E6E6E6;
   padding: 20px;
   margin-bottom: 20px;
-  width: 225px;
-  /*height: 250px;*/
-  border: 1px solid #E6E6E6;
 }
 
 .card h3, p {
   margin: 20px;
   font-size: 15px;
-
-}
-
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
